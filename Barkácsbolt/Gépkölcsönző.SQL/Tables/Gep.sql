@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[Gep]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+	[Marka] NVARCHAR(255) NOT NULL,
+	[Modell] NVARCHAR(255) NOT NULL,
+	[Teljesitmeny] INT NOT NULL,
+	[Suly] FLOAT NOT NULL,
+	[Mennyiseg] INT NOT NULL,
+	[Ar] INT NOT NULl,
+	[Kep] NVARCHAR(255) NOT NULL
+)
